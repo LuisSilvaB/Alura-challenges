@@ -2,9 +2,9 @@ import './assets/css/base/base.css';
 import './assets/css/componentes/card.css'; 
 import Home from './pages/Home'; 
 import Sobre from './pages/Sobre'; 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Page404 from './pages/page404';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/header';
 function App() {
   // const location = window.location.pathname; 
   // console.log(location);
@@ -19,6 +19,7 @@ function App() {
 
   return (
     <Router>
+      <Header></Header>
       <Routes>
         <Route path='/' element = { <Home/> }/>
         <Route path='/sobre' element = { <Sobre/> }/>
