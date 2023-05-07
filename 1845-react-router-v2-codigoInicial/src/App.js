@@ -5,6 +5,7 @@ import Sobre from './pages/Sobre';
 import Page404 from './pages/page404';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
+import Post from './pages/Post';
 function App() {
   // const location = window.location.pathname; 
   // console.log(location);
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route path='/' element = { <Home/> }/>
         <Route path='/sobre' element = { <Sobre/> }/>
+        <Route path='/posts/:id' element = {<Post/>}></Route>
         <Route path='*' element = { <Page404 /> }/>
       </Routes>
     </Router>

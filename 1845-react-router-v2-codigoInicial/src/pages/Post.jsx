@@ -1,9 +1,19 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import "../assets/css/componentes/card.css"
-
+import { useParams, useNavigate} from "react-router-dom"
+import { buscar } from "../api/api"
 const Post = ({ url }) => {
-  const [post, setPost] = useState({})
+  const [post, setPost] = useState({}),
+  { id } = useParams(),
+  navigate = useNavigate();  
   
+  useEffect(()=>{
+    buscar(`/posts/${id}`, setPost).catch(()=>{
+      // * La ruta no existe pero como por defecto tenemos configurada en el app * 
+      // * nos enviará por defecto a la de pagina inexistente 
+      navigate('/not-found')    
+    })
+  },[id])
   
   return(
     <main className = "container flex flex--center">
