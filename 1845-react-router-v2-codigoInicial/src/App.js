@@ -6,6 +6,7 @@ import Page404 from './pages/page404';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
 import Post from './pages/Post';
+import Categoria from './pages/Categoria';
 function App() {
   // const location = window.location.pathname; 
   // console.log(location);
@@ -22,10 +23,11 @@ function App() {
     <Router>
       <Header></Header>
       <Routes>
-        <Route path='/' element = { <Home/> }/>
-        <Route path='/sobre' element = { <Sobre/> }/>
-        <Route path='/posts/:id' element = {<Post/>}></Route>
-        <Route path='*' element = { <Page404 /> }/>
+        <Route path='/' element = { <Home/> } />
+        <Route path='/sobre' element = { <Sobre/> } />
+        <Route path='/posts/:id' element = {<Post/>} />
+        <Route path='/categoria/:id/*' element = {<Categoria/>} />{/*Haciendo uso del ' * ' le decimos que tendremos algo detras*/}
+        <Route path='*' element = { <Page404 /> } />
       </Routes>
     </Router>
   );

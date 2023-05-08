@@ -8,7 +8,6 @@ const ListPosts = ( { url } ) => {
   const [posts, setPosts] = useState([]); 
   useEffect(() => {
     buscar(url, setPosts)
-    console.log(posts);
   }, [url]);
   return (
     <section className='posts container'>
