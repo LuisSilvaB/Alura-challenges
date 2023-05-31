@@ -1,0 +1,35 @@
+@media screen and (min-width:901px) {
+  .Inicio__img {
+    display: block;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Inicio__img {
+    display: block;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Inicio__img {
+    display: block;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Inicio__img {
+    display: block;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+}

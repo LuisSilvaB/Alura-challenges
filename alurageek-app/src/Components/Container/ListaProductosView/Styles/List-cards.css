@@ -1,0 +1,34 @@
+@media screen and (min-width:901px) {
+  .List__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .List__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .List__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .List__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,36 @@
+@media screen and (min-width:901px) {
+  .List__container{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .List__container{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .List__container{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .List__container{
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+}

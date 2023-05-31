@@ -1,0 +1,35 @@
+@media screen and (min-width:901px) {
+  .Card__container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Card__container{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Card__container{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Card__container{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    justify-content: space-between;
+  }
+}

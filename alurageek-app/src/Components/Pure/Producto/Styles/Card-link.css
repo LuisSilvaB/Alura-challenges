@@ -1,0 +1,43 @@
+@media screen and (min-width:901px) {
+  .Card__link{
+    font-size: 0.9vw;
+    font-weight: bold;
+    color: #2A7AE4;
+  }
+  .Card__link:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Card__link{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #2A7AE4;
+  }
+  .Card__link:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Card__link{
+    font-size: 0.9vw;
+    font-weight: bold;
+    color: #2A7AE4;
+  }
+  .Card__link:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Card__link{
+    font-size: 4vw;
+    font-weight: bold;
+    color: #2A7AE4;
+  }
+  .Card__link:hover{
+    cursor: pointer;
+  }
+}

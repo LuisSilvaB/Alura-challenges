@@ -1,0 +1,31 @@
+@media screen and (min-width:901px) {
+  .Card__price{
+    margin: 2px;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Card__price{
+    margin: 2px;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Card__price{
+    margin: 2px;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Card__price{
+    margin: 2px;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,114 @@
+@media screen and (min-width:901px) {
+  .Inicio__informacion {
+    z-index: 3;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+  }
+  .Inicio__informacion h2{
+    font-size: 4vw;
+    color: white;
+    margin: 0px;
+  }
+  .Inicio__informacion p {
+    font-size: 2vw;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Inicio__informacion button{
+    padding: 20px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    font-size: 1.2vw;
+    transition: all 0.3s ease-in-out;
+  }
+  .Inicio__informacion button:hover {
+    cursor: pointer;
+    background-color: #133d74;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Inicio__informacion {
+    z-index: 3;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+  }
+  .Inicio__informacion h2{
+    font-size: 5vw;
+    color: white;
+    margin: 0px;
+  }
+  .Inicio__informacion p {
+    font-size: 3vw;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Inicio__informacion button{
+    padding: 10px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    font-size: 2vw;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .Inicio__informacion {
+    z-index: 3;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+  }
+  .Inicio__informacion h2{
+    font-size: 5vw;
+    color: white;
+    margin: 0px;
+  }
+  .Inicio__informacion p {
+    font-size: 3vw;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Inicio__informacion button{
+    padding: 10px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    font-size: 2vw;
+  }
+}
+
+
+@media screen and (max-width:300px) {
+  .Inicio__informacion {
+    z-index: 3;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+  }
+  .Inicio__informacion h2{
+    font-size: 5vw;
+    color: white;
+    margin: 0px;
+  }
+  .Inicio__informacion p {
+    font-size: 3vw;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Inicio__informacion button{
+    padding: 10px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    font-size: 2vw;
+  }
+}
