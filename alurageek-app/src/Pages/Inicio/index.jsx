@@ -7,6 +7,8 @@ import './Styles/Lists.css'
 import ImageBackground from '../../Img/Inicio/BnnerInicio.jpg'
 
 import ListProductsView from '../../Components/Container/ListaProductosView';
+import Form from '../../Components/Container/Form';
+import Footer from '../../Components/Footer';
 
 const Inicio = () => {
   return (
@@ -23,6 +25,7 @@ const Inicio = () => {
      <div className='Lists'>
       <ListProductsView/>
      </div>
+      <Footer></Footer> 
     </>
   );
 }

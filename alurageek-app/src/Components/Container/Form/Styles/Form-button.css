@@ -1,0 +1,55 @@
+@media screen and (min-width:901px) {
+  .Form__button{
+    width: 20%;
+    height: 5vh;
+    border: none;
+    background-color: #2A7AE4;
+    color: white;
+    font-size: 1vw;
+  }
+  .Form__button:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Form__button{
+    width: 20%;
+    height: 5vh;
+    border: none;
+    background-color: #2A7AE4;
+    color: white;
+    font-size: 1vw;
+  }
+  .Form__button:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Form__button{
+    width: 40%;
+    height: 5vh;
+    border: none;
+    background-color: #2A7AE4;
+    color: white;
+    font-size: 3vw;
+  }
+  .Form__button:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Form__button{
+    width: 60%;
+    height: 5vh;
+    border: none;
+    background-color: #2A7AE4;
+    color: white;
+    font-size: 4vw;
+  }
+  .Form__button:hover{
+    cursor: pointer;
+  }
+}

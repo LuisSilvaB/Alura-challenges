@@ -1,0 +1,43 @@
+@media screen and (min-width:901px) {
+  .Footer__icono{
+    flex: 1;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Footer__icono{
+    flex: 1;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Footer__icono{
+    flex: 1;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Footer__icono{
+    flex: 1;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

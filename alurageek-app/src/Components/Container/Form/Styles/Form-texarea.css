@@ -1,0 +1,47 @@
+@media screen and (min-width:901px) {
+  .Form__textarea{
+    width: 80%;
+    height: 4vh;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px -1px;
+    resize: none;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .Form__textarea{
+    width: 80%;
+    height: 4vh;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px -1px;
+    resize: none;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Form__textarea{
+    width: 95%;
+    height: 4vh;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px -1px;
+    resize: none;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Form__textarea{
+    width: 95%;
+    height: 4vh;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px -1px;
+    resize: none;
+  }
+}

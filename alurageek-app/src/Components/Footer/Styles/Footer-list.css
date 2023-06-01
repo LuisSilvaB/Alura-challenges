@@ -1,0 +1,78 @@
+@media screen and (min-width:901px) {
+  
+  .Footer__list{
+    flex: 2;
+  }
+  .Footer__list ul{
+    padding: 0px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+  }
+  .Footer__list li{
+    list-style: none;
+  }
+  .Footer__list li:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:900px) {
+  
+  .Footer__list{
+    flex: 2;
+  }
+  .Footer__list ul{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .Footer__list li{
+    list-style: none;
+  }
+  .Footer__list li:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:600px) {
+  
+  .Footer__list{
+    flex: 2;
+  }
+  .Footer__list ul{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .Footer__list li{
+    list-style: none;
+  }
+  .Footer__list li:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:300px) {
+  
+  .Footer__list{
+    flex: 2;
+  }
+  .Footer__list ul{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .Footer__list li{
+    list-style: none;
+  }
+  .Footer__list li:hover{
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,43 @@
+@media screen and (min-width:901px) {
+  .Footer__informacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+  } 
+}
+
+@media screen and (max-width:900px) {
+  .Footer__informacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Footer__informacion{
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Footer__informacion{
+    box-sizing: border-box;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+  }
+}
