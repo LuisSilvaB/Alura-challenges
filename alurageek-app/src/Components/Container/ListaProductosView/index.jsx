@@ -2,8 +2,9 @@ import React from 'react';
 
 import './Styles/List-container.css'
 import './Styles/List-header.css'
-import './Styles/Categoria-title.css'
 import './Styles/List-cards.css'
+import './Styles/Categoria-title.css'
+import './Styles/Calegoria-link.css'
 
 
 import { categorias } from '../../../Data/Productos/Categorias';

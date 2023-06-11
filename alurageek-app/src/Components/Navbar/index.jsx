@@ -5,6 +5,7 @@ import Geek from '../../Img/Inicio/Geek.svg'
 import SearchIcon from '../../Img/Inicio/SeacrhIcon.svg'
 import './Navbar.css'; 
 
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -21,7 +22,7 @@ const Navbar = () => {
         </div>
         <div className='ContainerButtons'>
           <button className='ContainerButtons__registro'> Registrarse </button>
-          <button className='ContainerButtons__iniciarSesion'> Iniciar Sesión </button>
+          <button className='ContainerButtons__iniciarSesion'> <Link to='/login'>Iniciar Sesión</Link></button>
         </div>
       </div>
     </nav>

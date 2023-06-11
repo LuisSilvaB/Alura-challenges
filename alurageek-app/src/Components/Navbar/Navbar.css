@@ -67,6 +67,9 @@
     color: white;
     cursor: pointer;
   }
+  .ContainerButtons__iniciarSesion Link{
+    
+  }
   .ContainerButtons__registro{
     box-sizing: border-box;
     border-width: 1px;

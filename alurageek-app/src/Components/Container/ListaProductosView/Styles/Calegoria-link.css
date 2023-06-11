@@ -1,0 +1,27 @@
+@media screen and (min-width:901px) {
+  .Categoria__link{
+    font-size: 0.9vw;
+    color: #2A7AE4;
+  }  
+}
+
+@media screen and (max-width:900px) {
+  .Categoria__link{
+    font-size: 1.5vw;
+    color: #2A7AE4;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .Categoria__link{
+    font-size: 2vw;
+    color: #2A7AE4;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .Categoria__link{
+    font-size: 2vw;
+    color: #2A7AE4;
+  }
+}
