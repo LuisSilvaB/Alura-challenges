@@ -5,6 +5,7 @@ import '../../Components/Container/Form/Styles/Form-input.css'
 import '../../Components/Container/Form/Styles/Form-button.css' 
 import Footer from '../../Components/Footer';
 
+
 const RegistroUsuario = () => {
   return (
     <>
